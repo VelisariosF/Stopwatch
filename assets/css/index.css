@@ -1,0 +1,81 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #eea300;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10%;
+  width: 100%;
+  height: 50vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .main-title {
+  color: white;
+}
+
+.container .subtitle {
+  color: white;
+}
+
+.container .clock {
+  color: white;
+}
+
+.container .clock p #seconds {
+  font-size: 16px;
+}
+
+.container .buttons-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 2%;
+          column-gap: 2%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40vw;
+}
+
+.container .buttons-container .button {
+  background-color: transparent;
+  -webkit-transition: background-color 0.3s ease-out;
+  border: 1px solid white;
+  border-radius: 5px 5px 5px 5px;
+  width: 100%;
+  color: white;
+  padding: 0.6em 1.2em;
+  text-align: center;
+  text-justify: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin-right: 1em;
+  cursor: pointer;
+}
+
+.container .buttons-container .button:hover {
+  color: black;
+  background-color: #ffffff;
+}
+/*# sourceMappingURL=index.css.map */
